@@ -1,0 +1,28 @@
+.upper > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+}
+.upper > a:hover {
+  color: rgb(0, 0, 0);
+}
+.upper > :nth-child(2) {
+  text-decoration: underline;
+}
+.filter {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 25px 0px;
+}
+.filterType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgb(42, 42, 42);
+  font-weight: 600;
+  text-decoration: none;
+}

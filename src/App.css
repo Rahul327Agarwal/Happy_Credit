@@ -1,0 +1,6 @@
+.leftRight {
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  gap: 10px;
+  padding-top: 25px;
+}
